@@ -27,6 +27,6 @@ function calcolaDollariRicevuti(importoIniziale, commissioneFissa, tassoDiCambio
 console.log(calcolaDollariRicevuti(100, 1.08, 5));
 let dollariRicevuti = calcolaDollariRicevuti(100, 1.08, 5);
 console.log(dollariRicevuti.toFixed(2));
-
+console.log(`100 € diventano ${dollariRicevuti.toFixed(2)} $`);
 // # Le prove: una riga di console.log per ogni caso di "Come verifichi"
 
