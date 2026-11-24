@@ -28,5 +28,9 @@ console.log(calcolaDollariRicevuti(100, 1.08, 5));
 let dollariRicevuti = calcolaDollariRicevuti(100, 1.08, 5);
 console.log(dollariRicevuti.toFixed(2));
 console.log(`100 € diventano ${dollariRicevuti.toFixed(2)} $`);
+console.log(`250 € diventano ${calcolaDollariRicevuti(250, 1.08, 5).toFixed(2)} $`);
+console.log(`100 € diventano ${calcolaDollariRicevuti(100, 1.12, 0).toFixed(2)} $`);
+console.log(`3 € diventano ${calcolaDollariRicevuti(3, 1.08, 5).toFixed(2)} $`);
+console.log(`100 € diventano ${calcolaDollariRicevuti(100, 5, 1.08).toFixed(2)} $`);
 // # Le prove: una riga di console.log per ogni caso di "Come verifichi"
 
