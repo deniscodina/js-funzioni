@@ -9,9 +9,12 @@
   Di che tipo? number
 
   STEPS
-  1 -
-  2 -
-  3 -
+1 - Verificare che l'importo iniziale in euro sia maggiore della commissione fissa. Se non è sufficiente, restituire 0.
+
+2-  Sottrarre la commissione fissa dall'importo iniziale.
+
+3 - Convertire gli euro rimanenti in dollari, applicando il tasso di cambio e restituire il risultato.
+
 */
 
 // # La funzione
