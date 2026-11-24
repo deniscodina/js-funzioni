@@ -19,8 +19,14 @@
 
 // # La funzione
 function calcolaDollariRicevuti(importoIniziale, commissioneFissa, tassoDiCambio) {
-
+  if (importoIniziale <= commissioneFissa) return 0;
+  let euroRimanenti = importoIniziale - commissioneFissa;
+  let dollariRicevuti = euroRimanenti * tassoDiCambio;
+  return dollariRicevuti;
 }
+console.log(calcolaDollariRicevuti(100, 1.08, 5));
+let dollariRicevuti = calcolaDollariRicevuti(100, 1.08, 5);
+console.log(dollariRicevuti.toFixed(2));
 
 // # Le prove: una riga di console.log per ogni caso di "Come verifichi"
 
