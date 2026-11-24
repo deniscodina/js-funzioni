@@ -3,10 +3,10 @@
 
 /*
   LE QUATTRO DOMANDE (una risposta per ogni funzione)
-  Come si chiama?
-  Di quali dati ha bisogno?
-  Deve restituire qualcosa?
-  Di che tipo?
+  Come si chiama? calcolaDollariRicevuti
+  Di quali dati ha bisogno? importoIniziale, tassoDiCambio, commissioneFissa
+  Deve restituire qualcosa? deve restituire il totale dei soldi convertiti in dollari, ma prima si sottrae la somma della commissione fissa.
+  Di che tipo? number
 
   STEPS
   1 -
