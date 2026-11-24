@@ -18,7 +18,9 @@
 */
 
 // # La funzione
+function calcolaDollariRicevuti(importoIniziale, commissioneFissa, tassoDiCambio) {
 
+}
 
 // # Le prove: una riga di console.log per ogni caso di "Come verifichi"
 
