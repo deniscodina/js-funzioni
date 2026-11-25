@@ -19,6 +19,8 @@ function calcolaMediaPonderata(votoOrale, votoScritto) {
   const media = (votoScritto * 2 + votoOrale) / 3;
   return media;
 }
+let media = calcolaMediaPonderata(6, 9);
+console.log(`Media: ${media.toFixed(1)}`);
 
 
 // # Le prove: una riga di console.log per ogni caso di "Come verifichi"
