@@ -15,25 +15,35 @@
 */
 
 // # La funzione
-function trovaGiudizio(voto)
-if (voto > 10 || voto < 1) {
-  return "Voto non valido";
+function trovaGiudizio(voto) {
+  if (voto > 10 || voto < 1) {
+    return "Voto non valido";
+  }
+  else if (voto < 5) {
+    return "Gravemente insufficiente";
+  }
+  else if (voto < 6) {
+    return "Insufficiente";
+  }
+  else if (voto < 7) {
+    return "Sufficiente";
+  }
+  else if (voto < 8) {
+    return "Buono";
+  }
+  else {
+    return "Ottimo";
+  }
 }
-else if (voto < 5) {
-  return "Gravemente insufficiente";
-}
-else if (voto < 6) {
-  return "Insufficiente";
-}
-else if (voto < 7) {
-  return "Sufficiente";
-}
-else if (voto < 8) {
-  return "Buono";
-}
-else {
-  return "Ottimo";
-}
-
 // # Le prove: una riga di console.log per ogni caso di "Come verifichi"
 
+console.log(trovaGiudizio(3));
+console.log(trovaGiudizio(5));
+console.log(trovaGiudizio(5.5));
+console.log(trovaGiudizio(6));
+console.log(trovaGiudizio(7.5));
+console.log(trovaGiudizio(8));
+console.log(trovaGiudizio(10));
+console.log(trovaGiudizio(0));
+console.log(trovaGiudizio(11));
+console.log(trovaGiudizio(calcolaMediaPonderata(6, 9)));
